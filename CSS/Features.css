@@ -1,0 +1,85 @@
+body,
+button,
+input {
+  font-family: Alkatra, arial;
+  padding-top: 100px;
+}
+.header {
+  display: flex;
+  height: 60px;
+  border-bottom: solid 1.5px rgb(19, 150, 237);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+}
+.header-p {
+  display: inline-block;
+  font-size: 25px;
+  color: rgb(19, 150, 237);
+}
+.left-section {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.logo-img {
+  height: 75px;
+  margin: 0;
+  margin-top: -15px;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.header-button {
+  padding: 10px 20px 10px 20px;
+  margin-top: 2px;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: rgb(236, 100, 2);
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  transition: color, background-color 0.15s;
+}
+.header-button:hover {
+  color: rgb(19, 150, 237);
+}
+.body-div {
+  height: 500px;
+  display: flex;
+}
+.left-1 {
+  flex: 1;
+}
+.body-img {
+  width: 100%;
+}
+.right1 {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+.feature-button {
+  font-size: 25px;
+  padding: 30px 60px 30px 60px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  transition: background-color, color 0.15s;
+  background-color: rgba(19, 150, 237, 0.806);
+}
+.feature-button:hover {
+  background-color: rgb(236, 100, 2);
+}

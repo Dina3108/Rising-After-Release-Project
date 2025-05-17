@@ -1,0 +1,99 @@
+body,
+button,
+input {
+  font-family: Alkatra, arial;
+  padding-top: 70px;
+}
+.header {
+  display: flex;
+  height: 60px;
+  border-bottom: solid 1.5px rgb(19, 150, 237);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+}
+.header-p {
+  display: inline-block;
+  font-size: 25px;
+  color: rgb(19, 150, 237);
+}
+.left-section {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+.logo-img {
+  height: 75px;
+  margin: 0;
+  margin-top: -15px;
+}
+.right-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.header-button {
+  padding: 10px 20px 10px 20px;
+  margin-top: 2px;
+  background-color: transparent;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  color: rgb(236, 100, 2);
+  font-weight: 800;
+  border: none;
+  cursor: pointer;
+  transition: color, background-color 0.15s;
+}
+.header-button:hover {
+  color: rgb(19, 150, 237);
+}
+.page-p {
+  font-size: 25px;
+  color: rgb(236, 100, 2);
+  font-weight: 800;
+}
+.body-div {
+  border: solid 2px rgb(19, 211, 237);
+  display: flex;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.left1 {
+  flex: 1;
+}
+.house-img {
+  width: 100%;
+  border-radius: 30px;
+}
+.right1 {
+  flex: 1;
+}
+.home-name-p {
+  font-weight: 900;
+  font-size: 28px;
+  padding-left: 20px;
+  color: rgb(19, 150, 237);
+}
+span {
+  padding-left: 20px;
+  font-size: 23px;
+  font-weight: 700;
+  color: rgb(236, 100, 2);
+}
+.home-sub-p {
+  font-size: 23px;
+  color: cadetblue;
+  padding-left: 20px;
+}
+.options-div {
+  display: grid;
+  grid-template-columns: 1fr;
+}
